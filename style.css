@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+*,*::after,*::before {
+    box-sizing: inherit;
+}
+/* :root {
+    --light-gray:#8b8b8b;
+} */
+.input-section{
+    gap: 2rem;
+    /* background-color: aquamarine; */
+}
+.todo-input {
+flex-basis:60%;
+}
+th{
+    /* text-decoration: solid; */
+}
+td,th {
+    /* min-width:180px; */
+}
+.min-width{
+    /* min-width: 20px; */
+}
+td,th {
+    /* background-color: aquamarine; */
+    padding: 8px;
+}
+.todo-no{
+    width:5%
+}
+.todo-items{
+    width: 50%;
+}
+.todo-status{
+    width:20%
+}
+.todo-action{
+    width: 25%;
+}
+table tbody tr td{
+    color:--bs-tertiary-color;
+}
+table tbody tr  td:first-child{
+    color: black;
+}
+/* table tbody tr:first-child{
+    padding-top: 55px !important;
+    background-color: aquamarine;
+} */
