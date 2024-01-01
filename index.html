@@ -20,20 +20,20 @@
         <div class="row my-4">
             <div class="input-section d-flex justify-content-center ">
                 <div class="todo-input">
-                    <input type="text" class="form-control" placeholder="Enter a task here">
+                    <input type="text" class="form-control" id="todo-item-descr" placeholder="Enter a task here">
                 </div>
-                <div class="save-todo btn btn-primary">
+                <button onclick='saveBtnClick()' class="save-todo btn btn-primary disabled" >
                     SAVE
-                </div>
-                <div class="get-pending-todo btn btn-warning">
+                </button>
+                <button onclick="pendingBtnClick()" class="get-pending-todo btn btn-warning">
                     GET PENDING TASKS
-                </div>
+                </button>
             </div>
         </div>
         <!-- list of to do -->
         <div class="row d-flex justify-content-center">
-            <table class="">
-                <thead class="border-bottom">
+            <table id="table">
+                <thead class="">
                     <tr>
                         <th class="min-width todo-no">No.</th>
                         <th class="todo-items">todo items</th>
@@ -41,8 +41,9 @@
                         <th class="todo-action">Actions</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
+                <tbody id="tbody">
+                   
+                    <!-- <tr>
                         <td class="min-width">1</td>
                         <td class="">Buy Grocerry for next week</td>
                         <td>in progress</td>
@@ -54,8 +55,8 @@
                             FINISHED
                             </button>
                         </td>
-                    </tr>
-                    <tr>
+                    </tr> -->
+                    <!-- <tr>
                         <td class="min-width">2</td>
                         <td>Buy Grocerry for next week</td>
                         <td>in progress</td>
@@ -80,7 +81,7 @@
                             FINISHED
                             </div>
                         </td>
-                    </tr>
+                    </tr> -->
                 </tbody>
             </table>
         </div>

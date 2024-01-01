@@ -25,7 +25,8 @@ td,th {
 }
 td,th {
     /* background-color: aquamarine; */
-    padding: 8px;
+    padding: 12px 8px;
+    border-bottom:1px solid lightgrey;
 }
 .todo-no{
     width:5%
@@ -48,4 +49,11 @@ table tbody tr  td:first-child{
 /* table tbody tr:first-child{
     padding-top: 55px !important;
     background-color: aquamarine;
+} */
+/* table tbody tr:last-child td{
+    border-bottom: none;
+} */
+/* table tbody tr td:last-child {
+    padding-top: 10px;
+    padding-bottom: 10px;
 } */
