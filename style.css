@@ -57,3 +57,9 @@ table tbody tr  td:first-child{
     padding-top: 10px;
     padding-bottom: 10px;
 } */
+ul,li{
+    display: inline;
+    padding-right: 18px;
+   
+    
+}
